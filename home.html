@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>PJ SHOP</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-navigation">
+        <a class="logo" href="home.html">
+           <img src="img/logo-shop.png"> 
+        </a>
+        <div class="navbar">
+            <div class="navigation">
+                <a href="ralphlauren.html">Ralph Lauren</a>
+                <a href="nike.html">Nike</a>
+                <a href="northisland.html">North Island</a>
+                <a href="corteiz.html">Corteiz</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Catégories -->
+        <section class="categories">
+            
+            <a class="promotion" href="nike.html">
+                <img class="img-ad" src="img/header-img.jpg">
+            </a>
+            <div class="center-categories">
+                <div class="grid">
+                    <a class="left-img" href="ralphlauren.html">
+                        <img class="ralphlauren-header" src="img/ralphlauren-header.jpg">
+                    </a>
+                    <a class="right-img" href="corteiz.html">
+                        <img class="corteiz-header" src="img/corteiz-header.jpg">
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="produits">
+
+            <h1 class="main-title">Produits Mis en Avant</h1>
+
+            <div class="produits-align">
+
+                <div class="produits-bar">
+            
+                    <a href="northisland2.html" class="produit1">
+                        <img class="produit1-img" src="img/shirt1.jpg">
+                        <h1 price="price">39.90$</h1>
+                        <p>T-shirts North Island</p>
+                    </a>
+
+                    <a href="ralphlauren1.html" class="produit2">
+                        <img class="produit2-img" src="img/ralphlauren_main.jpg">
+                        <h1 class="price">169,00$</h1>
+                        <p>Sweat à capuche Raplh Lauren</p>
+                    </a>
+
+                    <a href="corteiz2.html" class="produit3">
+                        <img class="produit3-img" src="img/accessoire1.jpg">
+                        <h1 class="price">24.90$</h1>
+                        <p>Casquette Corteiz</p>
+                    </a>
+
+                    <a href="nike1.html" class="produit4">
+                        <img class="produit4-img" src="img/nike1main.jpg">
+                        <h1 class="price">89.00$</h1>
+                        <p>Maillot NBA Spurs</p>
+                    </a>
+
+                </div>
+            
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="title">
+                    <h1>Contactez-nous</h1>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a9f036b7-90f5-4035-bb0f-a1633b3107ba">
+                    <input type="text" name="name" placeholder="Entrer votre nom..." required>
+                    <input type="email" name="email" placeholder="Entrer votre email" required>
+                    <input type="text" name="subject" placeholder="Entrer le sujet" required>
+                    <input type="text" name="number" placeholder="Entrer votre numéro de téléphone" required>
+                    <textarea name="message" placeholder="Entrer votre message"></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+
+        </section>
+
+    
+    </main>
+
+</body>
+
+</html>
