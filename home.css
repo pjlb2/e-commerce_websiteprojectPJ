@@ -1,0 +1,311 @@
+html {
+    font-family: Roboto;
+    max-width: 1920px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2C2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 24px;
+}
+
+header div a:hover {
+    transform: translateY(-3px);
+    color: red;
+    transition-duration: 400ms;
+}
+
+.categories {
+    padding-top: 100px;
+    justify-content: center;
+    padding: 100px;
+    max-width: 100%;
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.img-ad {
+    max-width: 1234px;
+    width: 100%;
+}
+
+.img-ad:hover {
+    box-shadow: 0px 0px 25px 5px #2C2C2C;
+}
+
+.center-categories {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.grid {
+    display: flex;
+    gap: 30px;
+    max-width: 1234px;
+    padding-top: 30px;
+}
+
+.ralphlauren-header, .corteiz-header {
+    max-width: 602px;
+}
+
+.ralphlauren-header:hover {
+    box-shadow: 0px 0px 15px 5px #2C2C2C;
+}
+
+.corteiz-header:hover {
+    box-shadow: 0px 0px 15px 5px #2C2C2C;
+}
+
+.produits {
+    max-width: 100%;
+    
+    left: 0;
+    right: 0;
+    background-color: #2C2C2C;
+    padding: 100px;
+}
+
+.main-title {
+    color: white;
+    font-size: 48px;
+}
+
+.produits-align {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produits-bar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1234px;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.produit1, .produit2, .produit3, .produit4 {
+    background-color: white;
+    box-shadow: 0 0 10px 0px black;
+    padding: 30px;
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+.produit1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 10px black;
+    transition-duration: 300ms;
+}
+
+.produit2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 10px black;
+    transition-duration: 300ms;
+}
+
+.produit3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 10px black;
+    transition-duration: 300ms;
+}
+
+.produit4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 10px black;
+    transition-duration: 300ms;
+}
+
+
+
+.produits h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.produit1-img, .produit2-img, .produit3-img, .produit4-img {
+    max-width: 200px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+section#contact {
+    padding: 100px 0px;
+}
+
+section#contact .container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2C2C;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 50px -10px #2C2C2C;
+}
+
+section#contact .container .title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section#contact .container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+section#contact .container form input {
+    width: 47%;
+}
+
+section#contact .container form input:hover {
+    border-bottom: 2px solid red;
+}
+
+section#contact .container form input,
+section#contact .container form textarea {
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    transition: 0.2s;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+
+section#contact .container form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+section#contact .container form button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: #2C2C2C;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+section#contact .container form button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 50px -10px grey;
+}
+
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .categories {
+        max-width: 75%;
+    }
+    
+    .ralphlauren-header, .corteiz-header {
+        max-width: 400px;
+        position: static;
+    }
+}
+
+
+
+@media screen and (min-width: 770px) and (max-width: 992px) {
+    html {
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    html {
+        width: 40%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    html {
+        width: 30%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    
+    html {
+        width: 20%;
+    }
+
+}
